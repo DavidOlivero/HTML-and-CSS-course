@@ -1,0 +1,137 @@
+/* Este se trata de una hoja de css que servirá de modelo de todas las propiedades aprendidas y de como se pueden
+aplicar por categoría: fuentes, estilo gneral, tamaño, etc. */
+
+
+/*
+              Modelo de cajs
++------------------------------------------+
+|             margin↑                      |
+|   +-----------------------------------+  |
+|   |        border↑                    |  |
+|   |  +------------------------------+ |  |
+|   |  |     padding↑                 | |  | 
+|   |  | +--------------------------+ | |  |
+|   |  | |          Element         | | |  |
+|   |  | |                          | | |  |
+|   |  | +--------------------------+ | |  |
+|   |  +------------------------------+ |  |
+|   +-----------------------------------+  |
++------------------------------------------+
+*/
+
+/* Propiedades para la fuente */
+h1 {
+    font-family: 'Familia de la fuente', 'tipo de fuente: sans-serif o serif';
+    font-size: 'Tamaño de la fuente en píxeles';
+    font-weight: 'Peso de la fuente en unidades enteras';
+
+    /* Para aplicar todas las propiedades vistas anteriormente en una sola línea se usa font */
+    font: 'Peso en unidades' 'Tamaño en píxeles' 'Familia de la fuente', 'Tipo de la fuente';
+
+    line-height: 'Tamaño del entre líneas';
+
+    /* Estilos para la fuente */
+    color: #fff;
+    text-align: 'Alineación de la fuente';
+}
+
+/* Estilos de la página */
+body {
+    background-color: #fff; /* Color del fondo */
+    background-image: url('ruta de la imagen'); /* Colocar una imagen de fondo */
+}
+
+/* Estilo del modelo de cajas */
+h2 {
+    padding-top: 'Tamaño del padding superior en píxeles';
+    padding-right: 'Tamaño del padding derecho en píxeles';
+    padding-bottom: 'Tamaño del padding inferior en píxeles';
+    padding-left: 'Tamaño del padding izquierdo en píxeles';
+
+    /* Para establecer los parámetros anteriores en una sola línea se usa el parámetro padding */
+    padding: 'Superior' 'Derecho' 'Inferior' 'Izquierda';
+
+    margin-top: 'Tamaño del padding superior en píxeles';
+    margin-right: 'Tamaño del padding derecho en píxeles';
+    margin-bottom: 'Tamaño del padding inferior en píxeles';
+    margin-left: 'Tamaño del padding izquierdo en píxeles';
+
+    /* Para establecer los parámetros anteriores en una sola línea se usa el parámetro margin */
+    margin: 'Superior' 'Derecho' 'Inferior' 'Izquierda';
+
+    border-top: 'Tamaño del padding superior en píxeles';
+    border-right: 'Tamaño del padding derecho en píxeles';
+    border-bottom: 'Tamaño del padding inferior en píxeles';
+    border-left: 'Tamaño del padding izquierdo en píxeles';
+
+    /* Para establecer los parámetros anteriores en una sola línea se usa el parámetro border */
+    border: 'Superior' 'Derecho' 'Inferior' 'Izquierda';
+
+    /* Tambiém se puede usar el parámetro solid para indicar que el borde se debe ver para ello
+    se debe colocar a continuación el color */
+    border: 1px solid #fff;
+
+    /* Por default los elémentos no traen border */
+}
+
+/* Estilos para las imágenes */
+img {
+    background-repeat: no-repeat /* Establece la configuración del auto repetido preferiblemente
+    colocar en no-repeat pra que la imágen no se dupplique */;
+    background-size: cover /* Tamaño del background preferiblemente cover para que ocupe todo
+    el tamaño */;
+    min-height: 'Alto mínimo de la imagen en píxeles';
+}
+
+/* Propiedades de posicionamiento */
+li {
+    list-style: none; /* Estilo de la lista */
+    float: 'Hace los elementos flotantes deberemos especificar a que posición flotará';
+}
+
+/* Propiedades para los links */
+a:any-link { /* Estas propidades actúan sobre los elementos liks */
+    color: #fff
+}
+
+a:-webkit-any-link {
+    color: #fff;
+}
+
+a:-moz-any-link {
+    color: #fff;
+}
+
+i:hover { /* Esta propiedad sirve para crear un efecto hover */
+    color: #ffc900;
+}
+
+.continer {
+    display: flex; /* block, inline, inline-block, sttiky, abdolute, fixed, flex, gid*/
+    flex-direction: row; /* row, column, row-reverse, column-revers */
+    flex-wrap: wrap; /* wrap, nowrap */
+    align-items: center; /* center, strech */
+    justify-content: center; /* center space-between */
+    gap: 'Separación entre targets remplaza a la propiedad margin';
+}
+
+section {
+    visibility: hidden; /* hiden visible */
+}
+
+.continer {
+    display: grid;
+    grid-template-columns: 'Valor en píxeles dependiendo de cuantas columnas se crearán. Podemos usar el 1fr para '
+    'que el tamaño sea automático';
+    gap: 'Valor en píxeles de la separación entre elementos';
+    grid-column: 1 / 2; /* Se empieza a contar desde el 1 y cada elemento empieza desde donde termina el anterior */
+    grid-row: 1 / 3;
+    align-items: center; /*center, stretch*/
+    justify-content: center; /*center, stretch*/
+}
+
+.cardsgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: space-around; /* Es el space-between de grid */
+}

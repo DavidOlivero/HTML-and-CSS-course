@@ -1,0 +1,168 @@
+body {
+    background-color: #222;
+    font: 14px 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0px;
+}
+
+
+
+h2 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+nav {
+    position: fixed;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+
+nav ul li {
+    padding-top: 13px;
+}
+
+ul {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+li {
+    color: #fff;
+    list-style: none;
+    float: left;
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:any-link {
+    color: #fff;
+}
+
+a:-webkit-any-link {
+    color: #fff;
+}
+
+a:-moz-any-link {
+    color: #fff;
+}
+
+a:hover {
+    color: #ffc900;
+}
+
+table {
+    margin-bottom: 250px;
+}
+
+.continer figure {
+    margin-left: 0px;
+}
+
+#section {
+    padding: 10px 100px 10px 100px
+}
+
+.with-margin {
+    padding-right: 60px;
+}
+
+.video {
+    margin-right: 0;
+}
+
+.continer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    align-items: center;
+}
+
+#logo {
+    padding: 0;
+}
+
+/* Education section */
+.education-section {
+    background-color: #222;
+}
+
+.education-section {
+    border-top: 1px solid #ffc900;
+    color: #fff;
+}
+
+.group-targets {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.university-image {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.space {
+    border-top: 1px solid #ffc900;
+}
+
+.university-image img {
+    border-radius: 10px 10px 0 0;
+}
+
+.education-section p {
+    text-align: justify;
+    margin-top: 0;
+}
+
+.education-section span {
+    color: #ffc900;
+}
+
+.individual-target {
+    background-color: #191919;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Contact section */
+.contact-section {
+    background-color: #ffc900;
+}
+
+.contact-section h2 {
+    color: #000;
+    font-weight: 300;
+}
+
+.formarea {
+    display: grid;
+    grid-template-columns: 150px 350px;
+    padding-bottom: 10px;
+    justify-content: center;
+    font-weight: 500;
+    color: #000;
+}
+
+.contact-section input, .contact-section select, .contact-section textarea {
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+

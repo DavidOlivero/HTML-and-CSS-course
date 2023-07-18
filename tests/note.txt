@@ -1,0 +1,26 @@
+
+
+
+
+table {
+    padding-right: 60px;
+}
+
+.image {
+    float: left;
+}
+
+.personal-data {
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.data-targets {
+    display: flex;
+    flex-direction: row;
+}
+
+.table-title {
+    padding-right: 70px;
+}

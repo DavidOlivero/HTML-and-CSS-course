@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <script src="https://kit.fontawesome.com/f6a7558c90.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="menu-icon"><a href=""><i class="fa-solid fa-bars"></i></a></li>
+            <li><a href="./contact.html"><strong>CONTÁCTANOS</strong></a></li>
+            <li><a href="./location.html"><strong>LOCACIÓN</strong></a></li>
+            <li><a href="./menu.html"><strong>MENÚ</strong></a></li>
+            <li><a href="./index.html"><strong>INICIO</strong></a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <section class="contact-section" id="section">
+            <div class="continer">
+                <div class="flex">
+                    <figure class="pizza-image"><img src="../images/pizza.png" alt="imágen de una pizza"></figure>
+                    
+                    <div class="contact">
+                        <h2>Formulario de contacto</h2>
+                        <form action="#">
+                            <div class="contact-part">
+                                <label for="name"><strong>Name</strong></label>
+                                <input type="text" name="name" id="name" size="30" minlength="2" maxlength="64" required>
+                            </div>
+                            <div class="contact-part">
+                                <label for="Asunto"><strong>Asunto</strong></label>
+                                <input type="text" name="affair" id="affair" size="30" minlength="2" maxlength="100">
+                            </div>
+                            <div class="contact-part">
+                                <label for="email"><strong>Email</strong></label>
+                                <input type="email" name="email" id="email" required size="30">
+                            </div>
+
+                            <div class="contact-part">
+                                <label for="mesagge"><strong>Mensaje</strong></label>
+                                <textarea name="mesagge" id="mesagge" cols="33" rows="5"></textarea>
+                            </div>
+
+                            <div class="contact-part">
+                                <input type="submit" value="Contactar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+</html>

@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #131212;
+    font-family: 'Poppins', sans-serif;
+    color: #fff
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 250px;
+    padding-left: 190px;
+}
+
+p {
+    text-align: center;
+    font-weight: 200;
+    padding-top: 5px;
+    padding-left: 180px;
+    padding-bottom: 40px;
+    
+}
+
+.target {
+    background-image: url('../images/wallpper1.png');
+    background-repeat: no-repeat;
+    background-size: 700px;
+    min-height: 700px;
+    /* background-position: 70 70; */
+
+    background-position: center;
+    /* padding: 100px 650px 100px 650px; */
+}
+
+#title {
+    line-height: 1px;
+    padding-bottom: 25px;
+}
+
+#info {
+    padding-top: 20px;
+    padding-left: 720px;
+    padding-right: 500px;
+}
+
+#facebook-icon {
+    padding-top: 20px;
+    padding-left: 800px;
+    padding-bottom: 20px;
+}
+
+#facebook {
+    /* padding-left: 500px; */
+    background-image: url("../images/facebook.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 980px 37px;
+    min-height: 20px;
+    text-align: right;
+    padding: 40px 457px 220px;
+    font-weight: 200;
+}

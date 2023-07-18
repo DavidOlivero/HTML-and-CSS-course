@@ -1,0 +1,43 @@
+#section {
+    padding: 100px 100px 10px 100px;
+}
+
+.continer {
+    padding: 20px;
+    background-color: #222;
+    border-radius: 20px;
+}
+
+.continer img {
+    border-radius: 20px;
+}
+
+.map-image {
+    padding-right: 20px;
+    border-right: 2px solid #E77E1B;
+}
+
+.flex {
+    display: flex;
+    gap: 25px;
+}
+
+.flex h2 {
+    margin-bottom: 20px;
+}
+
+.flex p {
+    line-height: 20px;
+    text-align: justify;
+}
+
+.flex .go-google {
+    margin-top: 100px;
+}
+
+.flex .go-google button {
+    padding: 10px;
+    background-color: #E77E1B;
+    border-radius: 5px;
+    float: right;
+}

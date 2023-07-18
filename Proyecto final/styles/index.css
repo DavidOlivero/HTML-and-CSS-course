@@ -1,0 +1,75 @@
+#init-page {
+    display: flex;
+    gap: 30px;
+}
+
+.pizza {
+    height: 765px;
+}
+
+.pizza img {
+    height: 100%;
+}
+
+.info {
+    margin-top: 300px;
+    line-height: 90px;
+    text-align: left;
+    align-self: flex-end;
+    place-self: center;
+}
+
+.info h3 {
+    width: 400px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.info h2 {
+    font-size: 70px;
+    width: 500px;
+}
+
+button {
+    background-color: #fff;
+    padding: 8px;
+    width: 150px;
+    border: #2F3235;
+}
+
+button:hover {
+    background-color: #E77E1B;
+}
+
+.spaces {
+    border-bottom: 2px solid #fff;
+    margin-top: 100px;
+}
+
+/* Por alguna razón esto también hace efecto en la pantalla de Desktop
+@media (min-width: 900px) {
+    body {
+        height: 3377px;
+        width: 1560px;
+    }
+
+    nav {
+        width: 80%;
+    }
+
+    .pizza img {
+        height: 3377px;
+        width: 800px;
+    }
+
+    #init-page {
+        display: flex;
+        gap: 150px;
+    }
+
+    .info {
+        margin-top: 1500px;
+        line-height: 120px;
+    }
+}
+*/

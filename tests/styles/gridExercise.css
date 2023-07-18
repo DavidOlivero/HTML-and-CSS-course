@@ -1,0 +1,19 @@
+.continer {
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    gap: 10px;
+}
+
+.elem {
+    background-color: #F2AA52;
+}
+
+#pin01 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#pin02 {
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
